@@ -4,6 +4,8 @@
   "description": "Web client to directly upload to B2, where we store all the videos.   Eventually our server will pull the video from there when it needs it.",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd companion && npm install",
     "dev": "parcel index.html"
   },
   "author": "",
