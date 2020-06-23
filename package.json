@@ -7,6 +7,7 @@
   "author": "vija02",
   "license": "MIT",
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "parcel": "^1.12.4"
   }
 }

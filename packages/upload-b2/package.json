@@ -1,0 +1,31 @@
+{
+  "name": "upload-b2",
+  "version": "1.0.0",
+  "description": "Web client to directly upload to B2, where we store all the videos.   Eventually our server will pull the video from there when it needs it.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  },
+  "dependencies": {
+    "@uppy/core": "^1.11.0",
+    "@uppy/dashboard": "^1.10.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "fd-slicer": "^1.1.0",
+    "jws": "^4.0.0",
+    "lodash": "^4.17.15",
+    "lodash.includes": "^4.3.0",
+    "lodash.isboolean": "^3.0.3",
+    "purest": "^3.1.0",
+    "request-oauth": "^1.0.0",
+    "rimraf": "^3.0.2",
+    "whatwg-fetch": "^3.0.0"
+  }
+}
