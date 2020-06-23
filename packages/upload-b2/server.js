@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const rimraf = require('rimraf')
-const companion = require('./companion')
+const companion = require('./companion/lib/companion')
 const app = require('express')()
 
 const DATA_DIR = path.join(__dirname, 'tmp')
