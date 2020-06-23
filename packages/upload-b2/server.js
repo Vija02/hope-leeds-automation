@@ -43,10 +43,14 @@ process.on('exit', function () {
   rimraf.sync(DATA_DIR)
 })
 
+app.get('/', (req, res) => {
+  res.send("Hello~")
+})
+
 app.use(companion.app(options))
 
 const port = process.env.PORT || 8000
-const server = app.listen(process.env.PORT, () => {
+const server = app.listen(port, () => {
   console.log(`listening on port ${port}`)
 })
 
