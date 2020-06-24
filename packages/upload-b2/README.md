@@ -7,4 +7,8 @@ We copy a fork from https://github.com/Klowner/uppy/tree/backblaze-b2 for uppy b
 We can remove that and use master if this is eventually merged https://github.com/transloadit/uppy/pull/1933
 
 ## Server
-Unfortunately we also need to host the companion for this to work.
+Unfortunately we also need to host the companion for this to work. Currently hosted at heroku. Just need to point to the correct repo/folder and set env and all should be good.
+
+## THIS IS REALLY HACKY
+And that's fine.  
+There's a lot of dependencies mostly due to `companion.js` (Bundled from the same branch)
