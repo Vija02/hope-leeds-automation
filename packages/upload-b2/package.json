@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "dev": "parcel index.html",
-    "build": "parcel build index.html && touch dist/CNAME && echo \"upload-streaming.michaelsalim.co.uk\" >> dist/CNAME",
+    "build-frontend": "parcel build index.html && touch dist/CNAME && echo \"upload-streaming.michaelsalim.co.uk\" >> dist/CNAME",
     "gh-pages":  "gh-pages -td dist",
-    "deploy": "yarn build && yarn gh-pages"
+    "deploy": "yarn build-frontend && yarn gh-pages"
   },
   "author": "",
   "license": "MIT",
