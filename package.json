@@ -1,7 +1,7 @@
 {
   "name": "hope-leeds-automation",
   "version": "1.0.0",
-  "description": "This will be a monorepo containing all sorts of code to help automate the sunday service suring COVID-19",
+  "description": "This will be a monorepo containing all sorts of code to help automate the sunday service during COVID-19",
   "main": "index.js",
   "scripts": {},
   "author": "vija02",
