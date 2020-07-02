@@ -113,21 +113,21 @@ const Root = () => {
 						<Space>
 							<Button
 								onClick={() => {
-									const newPlayed = played - 1 / duration
-									setPlayed(newPlayed)
-									playerRef.current.seekTo(newPlayed)
-								}}
-							>
-								-1s
-							</Button>
-							<Button
-								onClick={() => {
 									const newPlayed = played - 5 / duration
 									setPlayed(newPlayed)
 									playerRef.current.seekTo(newPlayed)
 								}}
 							>
 								-5s
+							</Button>
+							<Button
+								onClick={() => {
+									const newPlayed = played - 1 / duration
+									setPlayed(newPlayed)
+									playerRef.current.seekTo(newPlayed)
+								}}
+							>
+								-1s
 							</Button>
 							<Button
 								onClick={() => {
