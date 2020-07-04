@@ -37,6 +37,8 @@ TL;DR: use **1280 x 720**
 Important!!! **24 FPS**(Yes, not 30)  
 Good: **H264/MP4**  
 
+![Render Option](2t27e8B6gp.png)
+
 At the end of the day, the stream should handle conversion, so it's not super important. But it'll save some storage.
 
 ## Uploading
