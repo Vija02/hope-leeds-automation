@@ -23,6 +23,9 @@ Opacity: 50%
 ```
 You can get the logo here: https://hope-leeds-streaming.s3.us-west-000.backblazeb2.com/Hope+Leeds+Logo+Transparent.png
 
+### Praise & Worship
+Sometimes the subtitle timing needs to be shifted. I use https://subtitletools.com/subtitle-sync-shifter which works fine.
+
 ### Sermon Editing
 
 We have a program to automatically edit the slides into the video given the video frames.  
