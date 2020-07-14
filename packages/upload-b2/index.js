@@ -4,9 +4,10 @@ const Tus = require('@uppy/tus')
 
 // DEBT: With our host, it's much easier to handle this here.
 // Since Github pages & Heroku both allows either protocol
-// Let's just enforce it https here, and also let the backend env to use https
-if (location.protocol !== 'https:') {
-	location.replace(`https:${location.href.substring(location.protocol.length)}`)
+// Let's just enforce it http here, and also let the backend env to use http
+// IDK why but using https worked at first but eventually it points to http for the backend
+if (location.protocol !== 'http:') {
+	location.replace(`http:${location.href.substring(location.protocol.length)}`)
 }
 
 var uppy = Uppy()
