@@ -1,5 +1,7 @@
 # Upload B2 Server
 
+> :warning: **There is no longer any instance of this running due removal of heroku free tier**
+
 Running tusd piping the data to our B2 backend. This is going to be run using Docker on heroku. 
 
 There's a tusd binary available in this repo that's compiled from https://github.com/Vija02/tusd. Takes too much effort to build from there so it's included here
